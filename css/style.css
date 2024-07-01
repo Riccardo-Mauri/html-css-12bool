@@ -1,13 +1,28 @@
 /*
 GENERAL
 */
-.blue-box{
+.nested-row{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.blue-box{
+    min-height:50px;
     border: 1px solid white;
     background-color: #006CFA;
     color: white;
+    text-align: center;
+    
+}
+.green-box{
+    background-color:#00E165;
+    height:30px;
+    color: white;
+    text-align: center;
+    border: 1px solid  #006CFA;
     
 }
