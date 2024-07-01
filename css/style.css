@@ -1,0 +1,13 @@
+/*
+GENERAL
+*/
+.blue-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    border: 1px solid white;
+    background-color: #006CFA;
+    color: white;
+    
+}
